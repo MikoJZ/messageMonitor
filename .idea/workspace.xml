@@ -5,50 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9660ea13-0c4c-4e80-999b-6ca1804e5a21" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/messageMonitor.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/msg_mon.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/new_email/audio.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/new_email/audio_10.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/new_email/audio_11.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/new_email/audio_12.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/new_email/audio_13.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/new_email/audio_14.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/new_email/audio_2.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/new_email/audio_3.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/new_email/audio_4.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/new_email/audio_5.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/new_email/audio_6.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/new_email/audio_7.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/new_email/audio_8.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/new_email/audio_9.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/new_teams_msg/audio.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/new_teams_msg/audio_10.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/new_teams_msg/audio_11.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/new_teams_msg/audio_12.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/new_teams_msg/audio_13.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/new_teams_msg/audio_14.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/new_teams_msg/audio_15.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/new_teams_msg/audio_16.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/new_teams_msg/audio_17.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/new_teams_msg/audio_18.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/new_teams_msg/audio_19.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/new_teams_msg/audio_2.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/new_teams_msg/audio_20.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/new_teams_msg/audio_3.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/new_teams_msg/audio_4.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/new_teams_msg/audio_5.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/new_teams_msg/audio_6.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/new_teams_msg/audio_7.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/new_teams_msg/audio_8.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/new_teams_msg/audio_9.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +21,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="023e9839-302a-4ad0-97f2-875835f5f7cc" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -88,7 +48,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -230,11 +190,24 @@
       <workItem from="1719887908186" duration="4819000" />
       <workItem from="1719901197984" duration="1475000" />
       <workItem from="1719911867135" duration="1720000" />
+      <workItem from="1719916129914" duration="1197000" />
+      <workItem from="1719993320460" duration="2515000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
