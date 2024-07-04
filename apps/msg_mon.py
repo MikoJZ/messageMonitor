@@ -37,6 +37,9 @@ outlook = win32com.client.DispatchWithEvents("Outlook.Application", OutlookHandl
 def is_red_exclamation_mark(image):
     return any(pixel[0] > 195 and pixel[1] < 100 and pixel[2] < 100 for pixel in image.getdata())
 
+def restart_program():
+    input("Press any key to restart the program...")
+    os.execv(sys.executable, ['python'] + sys.argv)
 
 def get_pid_by_name(process_name):
     for process in psutil.process_iter(['pid', 'name']):
@@ -77,7 +80,9 @@ if teams_pid:
             time.sleep(10)
     except Exception as e:
         print(f"An error occurred in the Teams section: {e}")
+        restart_program()
 else:
     print("Teams not found.")
+    restart_program()
 # -------------------------------------Teams end----------------------------------------
 pythoncom.PumpMessages()
