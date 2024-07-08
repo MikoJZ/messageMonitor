@@ -2,12 +2,14 @@ import win32com.client
 import pythoncom
 import pyautogui
 import os
+import sys
 import random
 import time
 from pywinauto import Application, Desktop
 from playsound import playsound
 import datetime
 import psutil
+import subprocess
 
 current_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
@@ -38,8 +40,9 @@ def is_red_exclamation_mark(image):
     return any(pixel[0] > 195 and pixel[1] < 100 and pixel[2] < 100 for pixel in image.getdata())
 
 def restart_program():
-    input("Press any key to restart the program...")
-    os.execv(sys.executable, ['python'] + sys.argv)
+    # 重启程序
+    print("Restarting program...")
+    subprocess.Popen([sys.executable] + sys.argv)
 
 def get_pid_by_name(process_name):
     for process in psutil.process_iter(['pid', 'name']):
