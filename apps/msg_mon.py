@@ -11,6 +11,7 @@ import datetime
 import psutil
 import subprocess
 
+print("Message Monitor is running...")
 current_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
 def play_audio(file_path):
@@ -43,6 +44,7 @@ def restart_program():
     # 重启程序
     print("Restarting program...")
     subprocess.Popen([sys.executable] + sys.argv)
+    print("Restarted")
 
 def get_pid_by_name(process_name):
     for process in psutil.process_iter(['pid', 'name']):
