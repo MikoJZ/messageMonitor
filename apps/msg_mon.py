@@ -12,7 +12,6 @@ import psutil
 import subprocess
 
 print("Message Monitor is running...")
-current_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
 def play_audio(file_path):
     playsound(file_path)
@@ -27,6 +26,7 @@ def play_random_audio(folder_path):
 # -------------------------------------outlook start--------------------------------------
 class OutlookHandler:
     def OnNewMailEx(self, receivedItemsIDs):
+        current_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         print(f"{current_time}: Received a new email！")
         # 模拟按下ESC键 唤醒计算机
         pyautogui.press('esc')
@@ -69,6 +69,7 @@ if teams_pid:
                 for btn in buttons:
                     btn_image = btn.capture_as_image()
                     if is_red_exclamation_mark(btn_image):
+                        current_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
                         print(f"{current_time}: New message in {btn.window_text()}!")
                         pyautogui.press('esc')
                         play_random_audio("../audio/new_teams_msg")
@@ -79,6 +80,7 @@ if teams_pid:
                 btn = teams_taskbar.child_window(title_re=".*Microsoft Teams.*", control_type="Button")
                 btn_image = btn.capture_as_image()
                 if is_red_exclamation_mark(btn_image):
+                    current_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
                     print(f"{current_time}: New message in {btn.window_text()}!")
                     pyautogui.press('esc')
                     play_random_audio("../audio/new_teams_msg")
